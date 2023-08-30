@@ -1,4 +1,3 @@
-### Hi there 👋
 
 <!--
 **devika1402/devika1402** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +13,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+### Hello, I'm Devika! 👾
+
+I'm a Data Scientist who loves to uncover insights from data. With a background in Computer Science, I blend my analytical skills with my passion for technology.
+
+- 🔭 Currently working on: Deep Learning for Medical Imaging.
+- 🤝 Looking to collaborate on: Open-source data science projects.
+- 💬 Ask me about: Machine Learning, Python, and Data Visualization.
+- 📫 How to reach me: [[LinkedIn Profile Link](https://www.linkedin.com/in/devikarajasekar/)]
