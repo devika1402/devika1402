@@ -21,4 +21,4 @@ I'm a Data Scientist who loves to uncover insights from data. With a background 
 - 🔭 Currently working on: Deep Learning for Medical Imaging.
 - 🤝 Looking to collaborate on: Open-source data science projects.
 - 💬 Ask me about: Machine Learning, Python, and Data Visualization.
-- 📫 How to reach me: [[LinkedIn Profile Link](https://www.linkedin.com/in/devikarajasekar/)]
+- 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/devikarajasekar/)
