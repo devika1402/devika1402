@@ -12,7 +12,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+
 
 ### Hello, I'm Devika! 👾
 
@@ -22,3 +22,4 @@ I'm a Data Scientist who loves to uncover insights from data. With a background 
 - 🤝 Looking to collaborate on: Open-source data science projects.
 - 💬 Ask me about: Machine Learning, Python, and Data Visualization.
 - 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/devikarajasekar/)
+-->
