@@ -2,8 +2,8 @@
 
 MSc Computer Science (Data Science) @ Leiden University | Data Science Intern @ Prysmian, Delft
 
-I build things at the intersection of messy real-world data and ML that actually has to explain itself.
-Right now: designing interpretable AutoML pipelines for my thesis and engineering ETL infrastructure at Prysmian.
+I like to build things at the intersection of messy real-world data and ML that actually has to explain itself.
+Right now: designing interpretable AutoML pipelines for my thesis.
 
 ---
 
@@ -21,9 +21,6 @@ End-to-end data product: containerised Postgres database, API-driven synthetic d
 PySpark pipeline analyzing fashion sales across category, style, season, and region. Exported curated insights to CSV/JSON for stakeholder reporting.
 `PySpark` `Python` `Data Visualization`
 
-**[NER Model Optimization on Biomedical Text](https://github.com/devika1402/learning-data-engineering)**
-Fine-tuned BioBERT on the CSIRO Adverse Drug corpus. Applied Focal Loss for severe class imbalance — rare-entity F1 improved by 20%+.
-`BERT` `Transformers` `NLP` `Focal Loss`
 
 **[Graph Anonymization Study](https://github.com/devika1402/privacy-by-design)**
 Evaluated 4 anonymization methods across 5 real-world graphs. Measured structural preservation (modularity shift <3%) and re-identification risk (<1%).
