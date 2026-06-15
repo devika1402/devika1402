@@ -53,8 +53,8 @@ viz        = ["Power BI", "Tableau", "Matplotlib", "Seaborn"]
 
 ## GitHub Activity
 
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devika1402&layout=compact&hide_border=true&title_color=6C0820&text_color=333333&bg_color=00000000&langs_count=6" />
-<img height="150" src="https://github-readme-streak-stats.herokuapp.com?user=devika1402&hide_border=true&ring=6C0820&fire=F2AEBC&currStreakLabel=6C0820&sideLabels=5A86CB&dates=333333" />
+<!-- <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devika1402&layout=compact&hide_border=true&title_color=6C0820&text_color=333333&bg_color=00000000&langs_count=6" />
+<img height="150" src="https://github-readme-streak-stats.herokuapp.com?user=devika1402&hide_border=true&ring=6C0820&fire=F2AEBC&currStreakLabel=6C0820&sideLabels=5A86CB&dates=333333" /> -->
 
 <!-- Snake appears after the GitHub Action runs for the first time.
      Go to Actions tab → Generate Snake Animation → Run workflow to trigger it manually. -->
