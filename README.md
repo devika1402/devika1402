@@ -22,7 +22,7 @@ Daily sales forecasting for 1,115 retail stores, six weeks ahead. Single LightGB
 
 ---
 
-### [EHS&S Incident Intelligence Pipeline](https://github.com/devika1402/ehss-incident-intelligence) : 688K+ records · 81 automated tests · CI on every push
+### [Workplace Safety Analysis Pipeline](https://github.com/devika1402/ehss-incident-intelligence) : 688K+ records · 81 automated tests · CI on every push
 `Apache Airflow` `dbt` `PostgreSQL` `Docker` `Ollama` `Pydantic` `GitHub Actions` `Python`
 
 End-to-end batch pipeline ingesting 688K+ OSHA workplace injury records into a PostgreSQL star-schema warehouse (1 fact, 5 dimensions) with dbt, orchestrated by a 7-task Airflow DAG, runnable with a single `docker compose up`. LLM enrichment layer (locally hosted via Ollama, Pydantic-validated structured output, SHA-256 caching for idempotent reruns) classifies free-text incident narratives at 96.5% coverage for $0 inference cost. 50 dbt data-quality tests + 31 Python unit tests wired into GitHub Actions CI, build fails on any data contract violation.
