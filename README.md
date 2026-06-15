@@ -11,8 +11,6 @@
 
 </div>
 
-Data engineering, ML, and analytics projects.
-
 ---
 
 ## Projects
