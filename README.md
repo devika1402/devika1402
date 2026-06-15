@@ -2,7 +2,7 @@
 
 # Devika Rajasekar
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-your--url.com-6C0820?style=for-the-badge&logo=safari&logoColor=white)](https://your-portfolio-url.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-devikabuilds.pages.dev-6C0820?style=for-the-badge&logo=safari&logoColor=white)](https://devikabuilds.pages.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-devikarajasekar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/devikarajasekar)
 
 <br>
@@ -96,6 +96,7 @@ Visualization   Power BI · Tableau · Matplotlib · Seaborn
 
 <div align="center">
 
-📄 [Portfolio](https://your-portfolio-url.com) · 💼 [LinkedIn](https://linkedin.com/in/devikarajasekar)
+📄 [Portfolio](https://devikabuilds.pages.dev) · 💼 [LinkedIn](https://linkedin.com/in/devikarajasekar)
 
 </div>
+
