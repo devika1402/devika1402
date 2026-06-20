@@ -21,6 +21,7 @@
 
 It picks clothes for one shopper in two passes: a quick first pass narrows a hundred thousand items down to a few hundred that might suit them, and then a careful model puts the best twelve in order. It learns from 31 million H&M purchases. What I liked working on was keeping the list varied instead of piling on the same bestsellers everyone sees, and putting a number on what that variety costs in accuracy.
 
+---
 
 ### [Two-Tower Movie Recommender](https://github.com/devika1402/free-lunch)
 `PyTorch` `FAISS` `LightGBM` `Python` · [Writeup](https://devikabuilds.pages.dev/notes/free-lunch-multi-objective-ranking/)
