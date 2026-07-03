@@ -7,7 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-devikarajasekar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/devikarajasekar)
 
 <br>
-<img src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=16&duration=3000&pause=1000&color=6C0820&center=true&vCenter=true&width=600&lines=Data+Engineering+%C3%97+Data+Science;Pipelines+that+hold+up%2C+models+you+can+trust;Python+%7C+dbt+%7C+Airflow+%7C+LightGBM+%7C+PyTorch" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=16&duration=3000&pause=1000&color=6C0820&center=true&vCenter=true&width=600&lines=Data+Engineering+%C3%97+Data+Science;Python+%7C+dbt+%7C+Airflow+%7C+Databricks+%7C+Azure" alt="Typing SVG" />
 <br><br>
 
 
