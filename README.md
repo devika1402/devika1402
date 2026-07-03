@@ -19,7 +19,7 @@
 ### [paytrail: Payments Lakehouse](https://github.com/devika1402/paytrail)
 `Databricks` `dbt` `Delta Lake` `Unity Catalog` `Azure` `SQL` `Python`
 
-It turns 6.3 million synthetic payment transactions into a daily settled-volume report: read from Azure storage into a bronze/silver/gold lakehouse on Databricks, cleaned and reconciled in dbt, with Unity Catalog tracing every number back to the row it came from. What I focused on was the correctness a payments report needs, re-runs that never double-count and late transactions still counted in the right window, with bad rows quarantined for investigation rather than lost. There's no fraud model here on purpose, the work is in making the numbers tie out, and dbt tests gate the whole build.
+It turns 6.3 million synthetic payment transactions into a daily settled-volume report: read from Azure storage into a bronze/silver/gold lakehouse on Databricks, cleaned and reconciled in dbt, with Unity Catalog tracing every number back to the row it came from. What I focused on was the correctness a payments report needs, re-runs that never double-count and late transactions still counted in the right window, with bad rows quarantined for investigation. The part I found interesting was thinking through what production would add on top, like a row filter by region and full-value access routed through an audited break-glass role.
 
 ---
 
