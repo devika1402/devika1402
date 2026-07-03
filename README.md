@@ -16,6 +16,13 @@
 ---
 ## Projects
 
+### [paytrail: Payments Lakehouse](https://github.com/devika1402/paytrail)
+`Databricks` `dbt` `Delta Lake` `Unity Catalog` `Azure` `SQL` `Python`
+
+It turns 6.3 million synthetic payment transactions into a daily settled-volume report: read from Azure storage into a bronze/silver/gold lakehouse on Databricks, cleaned and reconciled in dbt, with Unity Catalog tracing every number back to the row it came from. What I focused on was the correctness a payments report needs, re-runs that never double-count and late transactions still counted in the right window, with bad rows quarantined for investigation rather than lost. There's no fraud model here on purpose, the work is in making the numbers tie out, and dbt tests gate the whole build.
+
+---
+
 ### [The Edit: H&M Recommender](https://github.com/devika1402/the-edit)
 `BigQuery` `CatBoost` `FastAPI` `Python`
 
@@ -98,9 +105,9 @@ It looks at how much we can scramble a social network to protect people's identi
 Languages       Python · SQL · R
 ML / DL         PyTorch · TensorFlow · Scikit-Learn · LightGBM · XGBoost · AutoGluon · H2O
 NLP / Vision    Transformers · BioBERT · spaCy · OpenCV · U-Net
-Data Eng        dbt · Apache Airflow · PySpark · Docker · Git · Qlik Sense
+Data Eng        dbt · Databricks · Delta Lake · Apache Airflow · PySpark · Docker · Git · Qlik Sense
 Databases       PostgreSQL
-Cloud           AWS (S3, EC2) · Google Cloud Platform
+Cloud           AWS (S3, EC2) · Azure (ADLS Gen2) · Google Cloud Platform
 Visualization   Power BI · Tableau · Matplotlib · Seaborn
 ```
 
