@@ -23,6 +23,13 @@ It turns 6.3 million synthetic payment transactions into a daily settled-volume 
 
 ---
 
+### [Workplace Safety Analytics Pipeline](https://github.com/devika1402/ehss-incident-intelligence)
+`Apache Airflow` `dbt` `PostgreSQL` `Docker` `Ollama` `Pydantic` `GitHub Actions` `Python`
+
+It takes 688,000 messy OSHA injury records and turns them into a clean database we can spin up with one command. A local language model reads the written incident reports and pulls out structured fields, and tests run on every push so the build breaks the moment the data does.
+
+---
+
 ### [The Edit: H&M Recommender](https://github.com/devika1402/the-edit)
 `BigQuery` `CatBoost` `FastAPI` `Python`
 
@@ -41,13 +48,6 @@ It recommends movies in two passes: a model narrows 25 million ratings down to a
 `LightGBM` `Optuna` `statsforecast (MSTL)` `Python` · [Kaggle](https://www.kaggle.com/c/rossmann-store-sales)
 
 It predicts six weeks of daily sales for over a thousand stores using one model instead of a big ensemble. Most of my time went into the features and into setting up the validation so the model never accidentally peeks at the future.
-
----
-
-### [Workplace Safety Analytics Pipeline](https://github.com/devika1402/ehss-incident-intelligence)
-`Apache Airflow` `dbt` `PostgreSQL` `Docker` `Ollama` `Pydantic` `GitHub Actions` `Python`
-
-It takes 688,000 messy OSHA injury records and turns them into a clean database we can spin up with one command. A local language model reads the written incident reports and pulls out structured fields, and tests run on every push so the build breaks the moment the data does.
 
 ---
 
