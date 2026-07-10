@@ -23,7 +23,7 @@ It turns 6.3 million synthetic payment transactions into a daily settled-volume 
 
 ---
 
-### [Workplace Safety Analytics Pipeline](https://github.com/devika1402/ehss-incident-intelligence)
+### [Workplace Safety Analytics Pipeline](https://github.com/devika1402/workplace-safety-analysis)
 `Apache Airflow` `dbt` `PostgreSQL` `Docker` `Ollama` `Pydantic` `GitHub Actions` `Python`
 
 It takes 688,000 messy OSHA injury records and turns them into a clean database we can spin up with one command. A local language model reads the written incident reports and pulls out structured fields, and tests run on every push so the build breaks the moment the data does.
