@@ -54,7 +54,7 @@ It predicts six weeks of daily sales for over a thousand stores using one model 
 ### [SHAP Stability Across the Rashomon Set](https://devikabuilds.pages.dev/notes/can-you-trust-a-shap-value/)
 `AutoGluon` `H2O` `SHAP` `Python` · [Writeup](https://devikabuilds.pages.dev/notes/can-you-trust-a-shap-value/)
 
-My thesis asks a simple question: if two models are equally accurate, do they actually agree on why they made their predictions? I found that whether they agree depends a lot more on how you searched for the models than on the data itself.
+My thesis asks a simple question: if two models are equally accurate, do they actually agree on why they made their predictions? I found that whether they agree depends a lot more on how we searched for the models than on the data itself.
 
 ---
 
@@ -72,7 +72,7 @@ It tracks how leads turn into paying members, with a database, an API, an ETL jo
 
 ---
 
-### [Biomedical NER with BioBERT](https://github.com/devika1402/ade-ner)
+### [Biomedical NER with BioBERT](https://github.com/devika1402/ner_cadec)
 `PyTorch` `Hugging Face Transformers` `BioBERT` `Focal Loss`
 
 It reads patient forum posts and pulls out mentions of bad drug reactions. Those mentions are rare, so I had to train the model in a way that stops it from just ignoring them to look accurate.
@@ -86,7 +86,7 @@ It runs two Spark pipelines over a fashion dataset, one to spot trends and one t
 
 ---
 
-### [Energy Time-Series Forecasting](https://github.com/devika1402/energy-forecasting)
+### [Energy Time-Series Forecasting](https://github.com/devika1402/Energy-generation-forecasting)
 `ARIMA` `SARIMA` `Prophet` `Python`
 
 It forecasts hydro power generation from about sixteen months of real data off India's power portal. I compared a few classic forecasting models, and SARIMA won, though cleaning the data well mattered more than the choice of model.
@@ -96,7 +96,7 @@ It forecasts hydro power generation from about sixteen months of real data off I
 ### [Graph Anonymization Study](https://github.com/devika1402/privacy-anonymization)
 `Python` `Network Analysis`
 
-It looks at how much we can scramble a social network to protect people's identities before we wreck the structure we wanted to study. I tested four ways of doing it across five real networks and watched where privacy and usefulness pull against each other.
+It looks at how much we can scramble a social network to protect people's identities before we wreck the structure we wanted to study. I tested four ways of doing it across five real networks and looked at where privacy and usefulness pull against each other.
 
 
 ## Stack
