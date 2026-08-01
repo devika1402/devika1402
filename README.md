@@ -86,11 +86,6 @@ It forecasts hydro power generation from about sixteen months of real data off I
 
 ---
 
-### [Graph Anonymization Study](https://github.com/devika1402/privacy-anonymization)
-`Python` `Network Analysis`
-
-It looks at how much we can scramble a social network to protect people's identities before we wreck the structure we wanted to study. I tested four ways of doing it across five real networks and looked at where privacy and usefulness pull against each other.
-
 
 ## Stack
 
