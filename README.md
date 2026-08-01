@@ -51,13 +51,6 @@ It predicts six weeks of daily sales for over a thousand stores using one model 
 
 ---
 
-### [SHAP Stability Across the Rashomon Set](https://devikabuilds.pages.dev/notes/can-you-trust-a-shap-value/)
-`AutoGluon` `H2O` `SHAP` `Python` · [Writeup](https://devikabuilds.pages.dev/notes/can-you-trust-a-shap-value/)
-
-My thesis asks a simple question: if two models are equally accurate, do they actually agree on why they made their predictions? I found that whether they agree depends a lot more on how we searched for the models than on the data itself.
-
----
-
 ### [Multi-System Entity Resolution](https://github.com/devika1402/Multi-System-Customer-Data-Integration-Entity-Resolution)
 `Python` `SQL` `Entity Resolution`
 
