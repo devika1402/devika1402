@@ -29,6 +29,19 @@ It turns 6.3 million synthetic payment transactions into a daily settled-volume 
 It takes 688,000 messy OSHA injury records and turns them into a clean database we can spin up with one command. A local language model reads the written incident reports and pulls out structured fields, and tests run on every push so the build breaks the moment the data does.
 
 ---
+### [where-the-money-goes-next](https://github.com/devika1402/where-the-money-goes-next)
+`Python` `pandas` `NumPy` `scikit-learn` `XGBoost` `SciPy`
+
+It ranks 260,459 accounts a day against a fixed analyst review budget, flagging the ones most likely to be receiving money from authorised payment scams.
+
+---
+
+### [Bayesian Media Mix Model](https://github.com/devika1402/advertising-spend)
+`Python` `PyMC` `PyTensor` `ArviZ` `NumPy` `pandas`
+
+It builds a Bayesian model that estimates what each advertising channel contributes to sales across two years of weekly data, then works out how a fixed budget should be reallocated. 
+
+---
 
 ### [The Edit: H&M Recommender](https://github.com/devika1402/the-edit)
 `BigQuery` `CatBoost` `FastAPI` `Python`
