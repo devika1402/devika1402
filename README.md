@@ -14,7 +14,7 @@
 </div>
 
 ---
-## Projects
+## Few Projects
 
 ### [paytrail: Payments Lakehouse](https://github.com/devika1402/paytrail)
 `Databricks` `dbt` `Delta Lake` `Unity Catalog` `Azure` `SQL` `Python` · [Writeup](https://devikabuilds.pages.dev/notes/paytrail-payments-lakehouse/)
