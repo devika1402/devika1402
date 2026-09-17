@@ -29,7 +29,7 @@ It turns 6.3 million synthetic payment transactions into a daily settled-volume 
 It takes 688,000 messy OSHA injury records and turns them into a clean database we can spin up with one command. A local language model reads the written incident reports and pulls out structured fields, and tests run on every push so the build breaks the moment the data does.
 
 ---
-### [where-the-money-goes-next](https://github.com/devika1402/where-the-money-goes-next)
+### [Authorised Push Payment Investigation]([https://github.com/devika1402/where-the-money-goes-next](https://github.com/devika1402/Authorised-Push-Payment))
 `Python` `pandas` `NumPy` `scikit-learn` `XGBoost` `SciPy`
 
 It ranks 260,459 accounts a day against a fixed analyst review budget, flagging the ones most likely to be receiving money from authorised payment scams.
@@ -61,41 +61,6 @@ It recommends movies in two passes: a model narrows 25 million ratings down to a
 `LightGBM` `Optuna` `statsforecast (MSTL)` `Python` · [Kaggle](https://www.kaggle.com/c/rossmann-store-sales)
 
 It predicts six weeks of daily sales for over a thousand stores using one model instead of a big ensemble. Most of my time went into the features and into setting up the validation so the model never accidentally peeks at the future.
-
----
-
-### [Multi-System Entity Resolution](https://github.com/devika1402/Multi-System-Customer-Data-Integration-Entity-Resolution)
-`Python` `SQL` `Entity Resolution`
-
-It merges customer records spread across Stripe, Salesforce, and NetSuite into one clean view. Working out which records across two million rows were actually the same person was the real challenge.
-
----
-
-### [Lead Conversion Analytics](https://github.com/devika1402/lead-conversion-analytics)
-`PostgreSQL` `Docker Compose` `Python` `Streamlit` `SQL`
-
-It tracks how leads turn into paying members, with a database, an API, an ETL job, and a dashboard all running as separate containers. I built it more structured than it needed to be on purpose, just to practice wiring up a proper multi-service setup.
-
----
-
-### [Biomedical NER with BioBERT](https://github.com/devika1402/ner_cadec)
-`PyTorch` `Hugging Face Transformers` `BioBERT` `Focal Loss`
-
-It reads patient forum posts and pulls out mentions of bad drug reactions. Those mentions are rare, so I had to train the model in a way that stops it from just ignoring them to look accurate.
-
----
-
-### [Fashion Sales Analyzer](https://github.com/devika1402/fashion-analyzer)
-`PySpark` `Python`
-
-It runs two Spark pipelines over a fashion dataset, one to spot trends and one to model a retail catalog. It was mostly me practicing the kind of code that would still hold up if the data got a lot bigger.
-
----
-
-### [Energy Time-Series Forecasting](https://github.com/devika1402/Energy-generation-forecasting)
-`ARIMA` `SARIMA` `Prophet` `Python`
-
-It forecasts hydro power generation from about sixteen months of real data off India's power portal. I compared a few classic forecasting models, and SARIMA won, though cleaning the data well mattered more than the choice of model.
 
 ---
 
