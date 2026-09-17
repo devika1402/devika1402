@@ -7,7 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-devikarajasekar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/devikarajasekar)
 
 <br>
-<img src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=16&duration=3000&pause=1000&color=6C0820&center=true&vCenter=true&width=600&lines=Data+Engineering+%C3%97+Data+Science;Python+%7C+dbt+%7C+Airflow+%7C+Databricks+%7C+Azure" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=16&duration=3000&pause=1000&color=6C0820&center=true&vCenter=true&width=600&lines=Data+Engineering+%C3%97+Data+Science;Python+%7C+SQL+%7C+dbt+%7C+Airflow+%7C+Databricks+%7C+Azure" alt="Typing SVG" />
 <br><br>
 
 
@@ -26,10 +26,10 @@ It turns 6.3 million synthetic payment transactions into a daily settled-volume 
 ### [Workplace Safety Analytics Pipeline](https://github.com/devika1402/workplace-safety-analysis)
 `Apache Airflow` `dbt` `PostgreSQL` `Docker` `Ollama` `Pydantic` `GitHub Actions` `Python`
 
-It takes 688,000 messy OSHA injury records and turns them into a clean database we can spin up with one command. A local language model reads the written incident reports and pulls out structured fields, and tests run on every push so the build breaks the moment the data does.
+It loads 688,000+ OSHA injury records into a tested PostgreSQL/dbt analytics warehouse orchestrated with Airflow. The pipeline also includes a local-LLM enrichment stage for incident narratives, with validation and CI around the structured outputs.
 
 ---
-### [Authorised Push Payment Investigation]([https://github.com/devika1402/authorised-push-payment](https://github.com/devika1402/authorised-push-payment))
+### [Authorised Push Payment Investigation](https://github.com/devika1402/authorised-push-payment)
 `Python` `pandas` `NumPy` `scikit-learn` `XGBoost` `SciPy`
 
 It ranks 260,459 accounts a day against a fixed analyst review budget, flagging the ones most likely to be receiving money from authorised payment scams.
