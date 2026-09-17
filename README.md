@@ -29,7 +29,7 @@ It turns 6.3 million synthetic payment transactions into a daily settled-volume 
 It takes 688,000 messy OSHA injury records and turns them into a clean database we can spin up with one command. A local language model reads the written incident reports and pulls out structured fields, and tests run on every push so the build breaks the moment the data does.
 
 ---
-### [Authorised Push Payment Investigation]([https://github.com/devika1402/where-the-money-goes-next](https://github.com/devika1402/Authorised-Push-Payment))
+### [Authorised Push Payment Investigation]([https://github.com/devika1402/authorised-push-payment](https://github.com/devika1402/authorised-push-payment))
 `Python` `pandas` `NumPy` `scikit-learn` `XGBoost` `SciPy`
 
 It ranks 260,459 accounts a day against a fixed analyst review budget, flagging the ones most likely to be receiving money from authorised payment scams.
