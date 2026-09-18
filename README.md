@@ -65,7 +65,7 @@ It predicts six weeks of daily sales for over a thousand stores using one model 
 ---
 
 
-## Stack
+## Tools I have worked with
 
 ```
 Languages       Python · SQL · R
