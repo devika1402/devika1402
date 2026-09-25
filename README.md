@@ -14,7 +14,7 @@
 </div>
 
 ---
-## Few Projects
+## A few projects
 
 ### [paytrail: Payments Lakehouse](https://github.com/devika1402/paytrail)
 `Databricks` `dbt` `Delta Lake` `Unity Catalog` `Azure` `SQL` `Python` · [Writeup](https://devikabuilds.pages.dev/notes/paytrail-payments-lakehouse/)
@@ -26,46 +26,40 @@ It turns 6.3 million synthetic payment transactions into a daily settled-volume 
 ### [Workplace Safety Analytics Pipeline](https://github.com/devika1402/workplace-safety-analysis)
 `Apache Airflow` `dbt` `PostgreSQL` `Docker` `Ollama` `Pydantic` `GitHub Actions` `Python`
 
-It loads 688,000+ OSHA injury records into a tested PostgreSQL/dbt analytics warehouse orchestrated with Airflow. The pipeline also includes a local-LLM enrichment stage for incident narratives, with validation and CI around the structured outputs.
-
----
-### [Authorised Push Payment Investigation](https://github.com/devika1402/authorised-push-payment)
-`Python` `pandas` `NumPy` `scikit-learn` `XGBoost` `SciPy`
-
-It ranks 260,459 accounts a day against a fixed analyst review budget, flagging the ones most likely to be receiving money from authorised payment scams.
-
----
-
-### [Bayesian Media Mix Model](https://github.com/devika1402/advertising-spend)
-`Python` `PyMC` `PyTensor` `ArviZ` `NumPy` `pandas`
-
-It builds a Bayesian model that estimates what each advertising channel contributes to sales across two years of weekly data, then works out how a fixed budget should be reallocated. 
-
----
-
-### [The Edit: H&M Recommender](https://github.com/devika1402/the-edit)
-`BigQuery` `CatBoost` `FastAPI` `Python`
-
-It picks clothes for one shopper in two passes: a quick first pass narrows a hundred thousand items down to a few hundred that might suit them, and then a careful model puts the best twelve in order. It learns from 31 million H&M purchases. What I liked working on was keeping the list varied instead of piling on the same bestsellers everyone sees, and putting a number on what that variety costs in accuracy.
-
----
-
-### [Two-Tower Movie Recommender](https://github.com/devika1402/free-lunch)
-`PyTorch` `FAISS` `LightGBM` `Python` · [Writeup](https://devikabuilds.pages.dev/notes/free-lunch-multi-objective-ranking/)
-
-It recommends movies in two passes: a model narrows 25 million ratings down to a short list, and then a ranker decides the final order. The bit I liked working on was letting us trade off how engaging the feed is against how varied it is, with a single dial we turn after training instead of one baked in.
+I worked with nearly 688,000+ workplace injury reports. Many of them contain written descriptions of what happened, so I built a system that organises the data and uses AI to read those descriptions and identify useful information, such as what may have contributed to the accident. I also checked how reliable the AI’s classifications were.
 
 ---
 
 ### [Rossmann Store Sales Forecasting](https://github.com/devika1402/rossmann-sales-forecast)
 `LightGBM` `Optuna` `statsforecast (MSTL)` `Python` · [Kaggle](https://www.kaggle.com/c/rossmann-store-sales)
 
-It predicts six weeks of daily sales for over a thousand stores using one model instead of a big ensemble. Most of my time went into the features and into setting up the validation so the model never accidentally peeks at the future.
+I built a model to predict future sales for more than 1,000 retail stores. It learns from things such as previous sales, promotions, holidays, and seasonal patterns. I then compared its predictions with simpler forecasting methods to check whether the more advanced model was better.
+
+---
+
+### [Authorised Push Payment Investigation](https://github.com/devika1402/authorised-push-payment)
+`Python` `pandas` `NumPy` `scikit-learn` `XGBoost` `SciPy`
+
+I built a system that looks at millions of transactions and helps decide which bank accounts should be investigated first for suspicious activity. Since an investigation team can only review a limited number of cases each day, the goal was to rank the accounts so that the most important cases appear at the top.
+
+---
+
+### [The Edit: H&M Recommender](https://github.com/devika1402/the-edit)
+`BigQuery` `CatBoost` `FastAPI` `Python`
+
+I built a personalised shopping system using about 31 million H&M purchases. For each shopper, it first reduces a catalogue of roughly 100,000 products to a few hundred sensible possibilities, then chooses the twelve most relevant items. I also wanted to avoid giving everyone the same popular clothes, so I added a way to make the recommendations more varied and measured how much prediction accuracy we give up as we increase that variety.
+
+---
+
+### [Two-Tower Movie Recommender](https://github.com/devika1402/free-lunch)
+`PyTorch` `FAISS` `LightGBM` `Python` · [Writeup](https://devikabuilds.pages.dev/notes/free-lunch-multi-objective-ranking/)
+
+I built a movie recommendation system using the MovieLens dataset of about 25 million ratings. It first finds a manageable set of films that seem relevant to a person and then decides which ones should appear at the top. The main question I explored was what happens when a recommendation system is asked to show people a broader mix of films instead of always choosing whatever is most likely to get engagement. I found that a small adjustment captured most of the possible increase in variety while reducing estimated engagement by less than 5%.
 
 ---
 
 
-## Tools I have worked with
+## Tools I have worked with (tbh, not updated)
 
 ```
 Languages       Python · SQL · R
